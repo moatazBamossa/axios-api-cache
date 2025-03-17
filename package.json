@@ -1,0 +1,24 @@
+{
+  "name": "cache-nest",
+  "description": "A simple and lightweight API client with built-in caching for modern web applications.",
+  "version": "1.0.0",
+  "main": "dist/simple-api-client.js",
+  "types": "dist/simple-api-client.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "api",
+    "http",
+    "caching",
+    "axios",
+    "typescript"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/your-package-name.git"
+  }
+}
