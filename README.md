@@ -1,7 +1,4 @@
-Here's a comprehensive `README.md` for your API client package with installation instructions, benefits, usage examples, and more:
-
-```markdown
-# AxiosCache 🚀
+# CacheNest 🪺
 
 A lightweight and powerful API client with built-in caching, designed to simplify HTTP requests while boosting performance. Perfect for both JavaScript and TypeScript projects.
 
@@ -16,20 +13,20 @@ A lightweight and powerful API client with built-in caching, designed to simplif
 ## Installation 📦
 
 ```bash
-npm install axios-cache
+npm install cache-nest
 # or
-yarn add axios-cache
+yarn add cache-nest
 ```
 
-## Why AxiosCache? 💡
+## Why CacheNest? 💡
 
-| Feature               | AxiosCache | Plain Axios | React Query |
-|-----------------------|------------|-------------|-------------|
-| Built-in Caching      | ✅         | ❌          | ✅          |
-| Zero Dependencies*    | ✅         | ✅          | ❌          |
-| TypeScript Support    | ✅         | ✅          | ✅          |
-| Cache Control         | ✅         | ❌          | ✅          |
-| Bundle Size           | 3kb        | 3kb         | 15kb+       |
+| Feature               | CacheNest | Plain Axios | React Query |
+|-----------------------|-----------|-------------|-------------|
+| Built-in Caching      | ✅        | ❌          | ✅          |
+| Zero Dependencies*    | ✅        | ✅          | ❌          |
+| TypeScript Support    | ✅        | ✅          | ✅          |
+| Cache Control         | ✅        | ❌          | ✅          |
+| Bundle Size           | 3kb       | 3kb         | 15kb+       |
 
 *Except peer dependency on Axios
 
@@ -38,10 +35,10 @@ yarn add axios-cache
 ### Basic Usage
 
 ```javascript
-import AxiosCache from 'axios-cache';
+import CacheNest from 'cache-nest';
 
 // Initialize with base URL
-const api = new AxiosCache({
+const api = new CacheNest({
   baseURL: 'https://api.example.com',
   cacheTTL: 60000 // 1 minute cache
 });
@@ -68,7 +65,7 @@ interface Config {
   axiosConfig?: AxiosRequestConfig;
 }
 
-const api = new AxiosCache({
+const api = new CacheNest({
   baseURL: 'https://api.example.com',
   headers: {
     'Authorization': 'Bearer YOUR_TOKEN'
@@ -190,24 +187,39 @@ MIT © [Your Name]
 
 ---
 
-**Happy coding!** 💻 If you find this package useful, please consider giving it a ⭐️ on [GitHub](https://github.com/yourusername/axios-cache).
+**Happy coding!** 💻 If you find this package useful, please consider giving it a ⭐️ on [GitHub](https://github.com/yourusername/cache-nest).
 ```
 
-This README includes:
+---
 
-1. **Feature Overview**: Key selling points at a glance
-2. **Comparison Table**: Shows advantages over alternatives
-3. **Quick Start**: Immediate getting-started guide
-4. **Detailed Usage**:
-   - Configuration options
-   - All HTTP methods
-   - Cache management
-   - Error handling
-5. **TypeScript Examples**: For enhanced type safety
-6. **Performance Data**: Real-world benchmarks
-7. **Contributing Guide**: Encourages community involvement
-8. **Visual Elements**: Emojis and clean formatting
-9. **Installation Instructions**: For both npm/yarn
-10. **License Info**: Important legal details
+### **Key Updates for CacheNest**
+1. **Name Change**: Replaced all instances of `AxiosCache` with `CacheNest`.
+2. **Tagline**: Added the 🪺 emoji to the title for a cozy, nest-like vibe.
+3. **Description**: Emphasized the "nest" metaphor for caching and efficiency.
+4. **Examples**: Updated all code examples to use `CacheNest`.
 
-You can customize the values (like benchmark numbers, API endpoints, etc.) to match your actual package capabilities.
+---
+
+### **Why CacheNest?**
+- **Memorable**: The name is unique and easy to remember.
+- **Descriptive**: It conveys the idea of a safe, efficient place for caching.
+- **Playful**: The 🪺 emoji adds a friendly touch.
+
+---
+
+### **Next Steps**
+1. **Publish the Package**:
+   ```bash
+   npm publish
+   ```
+2. **Share the Repository**:
+   - Update the GitHub link in the README to point to your repository.
+   - Example: `https://github.com/yourusername/cache-nest`.
+
+3. **Promote Your Package**:
+   - Share it on social media, developer forums, and communities like Reddit or Dev.to.
+   - Add it to [npm trends](https://npmtrends.com/) to track its popularity.
+
+---
+
+Let me know if you need help with publishing or promoting your package! 🚀
