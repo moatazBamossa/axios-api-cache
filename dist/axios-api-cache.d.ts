@@ -4,7 +4,7 @@ type APIConfig = {
     headers?: Record<string, string>;
     cacheTTL?: number;
 };
-declare class SimpleAPIClient {
+declare class AxiosAPIClient {
     private instance;
     private cache;
     private defaultCacheTTL;
@@ -16,4 +16,4 @@ declare class SimpleAPIClient {
     delete<T>(url: string, config?: AxiosRequestConfig): Promise<T>;
     clearCache(url?: string): void;
 }
-export default SimpleAPIClient;
+export default AxiosAPIClient;

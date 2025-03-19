@@ -1,9 +1,9 @@
 {
-  "name": "cache-nest",
+  "name": "axios-simple-api-cache",
   "description": "A simple and lightweight API client with built-in caching for modern web applications.",
   "version": "1.0.0",
-  "main": "dist/simple-api-client.js",
-  "types": "dist/simple-api-client.d.ts",
+  "main": "dist/axios-api-cache.js",
+  "types": "dist/axios-api-cache.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublish": "npm run build"
@@ -15,10 +15,10 @@
     "axios",
     "typescript"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Moataz Albar Bamossa",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/your-package-name.git"
+    "url": ".https://github.com/moatazBamossa/axios-simple-api-cache"
   }
 }

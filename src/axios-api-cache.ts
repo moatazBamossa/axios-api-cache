@@ -1,4 +1,4 @@
-// simple-api-client.ts
+// axios-simple-api-cache.ts
 import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
 
 type CacheEntry = {
@@ -12,7 +12,7 @@ type APIConfig = {
   cacheTTL?: number; // Cache time-to-live in milliseconds (default: 5 minutes)
 };
 
-class SimpleAPIClient {
+class AxiosAPIClient {
   private instance: AxiosInstance;
   private cache: Map<string, CacheEntry>;
   private defaultCacheTTL: number;
@@ -70,4 +70,4 @@ class SimpleAPIClient {
   }
 }
 
-export default SimpleAPIClient;
+export default AxiosAPIClient;

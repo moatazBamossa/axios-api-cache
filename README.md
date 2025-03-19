@@ -1,4 +1,4 @@
-# CacheNest 🪺
+# axios-simple-api-cache 🪺
 
 A lightweight and powerful API client with built-in caching, designed to simplify HTTP requests while boosting performance. Perfect for both JavaScript and TypeScript projects.
 
@@ -13,20 +13,20 @@ A lightweight and powerful API client with built-in caching, designed to simplif
 ## Installation 📦
 
 ```bash
-npm install cache-nest
+npm install axios-simple-api-cache
 # or
-yarn add cache-nest
+yarn add axios-simple-api-cache
 ```
 
-## Why CacheNest? 💡
+## Why axios-simple-api-cache? 💡
 
-| Feature               | CacheNest | Plain Axios | React Query |
-|-----------------------|-----------|-------------|-------------|
-| Built-in Caching      | ✅        | ❌          | ✅          |
-| Zero Dependencies*    | ✅        | ✅          | ❌          |
-| TypeScript Support    | ✅        | ✅          | ✅          |
-| Cache Control         | ✅        | ❌          | ✅          |
-| Bundle Size           | 3kb       | 3kb         | 15kb+       |
+| Feature               | axios-cache | Plain Axios | React Query |
+|-----------------------|-------------|-------------|-------------|
+| Built-in Caching      | ✅          | ❌          | ✅          |
+| Zero Dependencies*    | ✅          | ✅          | ❌          |
+| TypeScript Support    | ✅          | ✅          | ✅          |
+| Cache Control         | ✅          | ❌          | ✅          |
+| Bundle Size           | 3kb         | 3kb         | 15kb+       |
 
 *Except peer dependency on Axios
 
@@ -35,10 +35,10 @@ yarn add cache-nest
 ### Basic Usage
 
 ```javascript
-import CacheNest from 'cache-nest';
+import AxiosAPIClient from 'axios-simple-api-cache';
 
 // Initialize with base URL
-const api = new CacheNest({
+const api = new AxiosAPIClient({
   baseURL: 'https://api.example.com',
   cacheTTL: 60000 // 1 minute cache
 });
@@ -65,7 +65,7 @@ interface Config {
   axiosConfig?: AxiosRequestConfig;
 }
 
-const api = new CacheNest({
+const api = new AxiosAPIClient({
   baseURL: 'https://api.example.com',
   headers: {
     'Authorization': 'Bearer YOUR_TOKEN'
@@ -187,20 +187,20 @@ MIT © [Your Name]
 
 ---
 
-**Happy coding!** 💻 If you find this package useful, please consider giving it a ⭐️ on [GitHub](https://github.com/yourusername/cache-nest).
+**Happy coding!** 💻 If you find this package useful, please consider giving it a ⭐️ on [GitHub](https://github.com/yourusername/axios-simple-api-cache).
 ```
 
 ---
 
-### **Key Updates for CacheNest**
-1. **Name Change**: Replaced all instances of `AxiosCache` with `CacheNest`.
+### **Key Updates for AxiosAPIClient**
+1. **Name Change**: Replaced all instances of `AxiosCache` with `AxiosAPIClient`.
 2. **Tagline**: Added the 🪺 emoji to the title for a cozy, nest-like vibe.
 3. **Description**: Emphasized the "nest" metaphor for caching and efficiency.
-4. **Examples**: Updated all code examples to use `CacheNest`.
+4. **Examples**: Updated all code examples to use `AxiosAPIClient`.
 
 ---
 
-### **Why CacheNest?**
+### **Why AxiosAPIClient?**
 - **Memorable**: The name is unique and easy to remember.
 - **Descriptive**: It conveys the idea of a safe, efficient place for caching.
 - **Playful**: The 🪺 emoji adds a friendly touch.
@@ -214,7 +214,7 @@ MIT © [Your Name]
    ```
 2. **Share the Repository**:
    - Update the GitHub link in the README to point to your repository.
-   - Example: `https://github.com/yourusername/cache-nest`.
+   - Example: `https://github.com/yourusername/axios-simple-api-cache`.
 
 3. **Promote Your Package**:
    - Share it on social media, developer forums, and communities like Reddit or Dev.to.

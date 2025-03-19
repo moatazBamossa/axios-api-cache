@@ -12,9 +12,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-// simple-api-client.ts
+// axios-simple-api-cache.ts
 const axios_1 = __importDefault(require("axios"));
-class SimpleAPIClient {
+class AxiosAPIClient {
     constructor(config = {}) {
         this.instance = axios_1.default.create({
             baseURL: config.baseURL,
@@ -67,4 +67,4 @@ class SimpleAPIClient {
         }
     }
 }
-exports.default = SimpleAPIClient;
+exports.default = AxiosAPIClient;
