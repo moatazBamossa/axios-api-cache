@@ -35,10 +35,10 @@ yarn add axios-simple-api-cache
 ### Basic Usage
 
 ```javascript
-import AxiosAPIClient from 'axios-simple-api-cache';
+import AxiosAPICashing from 'axios-simple-api-cache';
 
 // Initialize with base URL
-const api = new AxiosAPIClient({
+const api = new AxiosAPICashing({
   baseURL: 'https://api.example.com',
   cacheTTL: 60000 // 1 minute cache
 });
@@ -65,7 +65,7 @@ interface Config {
   axiosConfig?: AxiosRequestConfig;
 }
 
-const api = new AxiosAPIClient({
+const api = new AxiosAPICashing({
   baseURL: 'https://api.example.com',
   headers: {
     'Authorization': 'Bearer YOUR_TOKEN'
@@ -192,15 +192,15 @@ MIT © [Your Name]
 
 ---
 
-### **Key Updates for AxiosAPIClient**
-1. **Name Change**: Replaced all instances of `AxiosCache` with `AxiosAPIClient`.
+### **Key Updates for AxiosAPICashing**
+1. **Name Change**: Replaced all instances of `AxiosCache` with `AxiosAPICashing`.
 2. **Tagline**: Added the 🪺 emoji to the title for a cozy, nest-like vibe.
 3. **Description**: Emphasized the "nest" metaphor for caching and efficiency.
-4. **Examples**: Updated all code examples to use `AxiosAPIClient`.
+4. **Examples**: Updated all code examples to use `AxiosAPICashing`.
 
 ---
 
-### **Why AxiosAPIClient?**
+### **Why AxiosAPICashing?**
 - **Memorable**: The name is unique and easy to remember.
 - **Descriptive**: It conveys the idea of a safe, efficient place for caching.
 - **Playful**: The 🪺 emoji adds a friendly touch.

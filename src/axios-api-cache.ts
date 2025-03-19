@@ -12,7 +12,7 @@ type APIConfig = {
   cacheTTL?: number; // Cache time-to-live in milliseconds (default: 5 minutes)
 };
 
-class AxiosAPIClient {
+class AxiosAPICashing {
   private instance: AxiosInstance;
   private cache: Map<string, CacheEntry>;
   private defaultCacheTTL: number;
@@ -70,4 +70,4 @@ class AxiosAPIClient {
   }
 }
 
-export default AxiosAPIClient;
+export default AxiosAPICashing;
